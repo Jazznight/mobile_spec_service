@@ -1,0 +1,3 @@
+es_host: "localhost:9200"
+mongo_host: "localhost"
+mongo_port: 5555
