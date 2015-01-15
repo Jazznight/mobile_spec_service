@@ -6,7 +6,7 @@
 #{   \"fuzzy\": { \"search_alias\": \"$1\" }},
 
 #curl -i -XGET 'http://localhost:9200/device_mongo/models/_search?pretty' -d "
-curl -i -XGET 'http://localhost:9200/devices/models/_search?pretty' -d "
+curl -i -XGET 'http://localhost:9200/device/models/_search?pretty' -d "
 { 
     \"query\": {
         \"dis_max\": {
